@@ -16,7 +16,7 @@
         "ext-swoole": ">=4.3.0",
         "easyswoole/component": "^1.0",
         "easyswoole/spl": "^1.0",
-        "easyswoole/http": "^1.0",
+        "linvanda/es_http": "^1.0",
         "easyswoole/utility": "^1.0",
         "jeremeamia/superclosure": "^2.4",
         "easyswoole/trace": "^1.0",
@@ -32,6 +32,12 @@
             "EasySwoole\\EasySwoole\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/linvanda/es_http.git"
+        }
+    ],
     "bin": [
         "bin/easyswoole"
     ]
